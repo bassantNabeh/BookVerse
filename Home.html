@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Montserrat|Pangolin|Sahitya" rel="stylesheet">
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        		<span class="sr-only">Toggle navigation</span>
+	       		 	<span class="icon-bar"></span>
+	       			<span class="icon-bar"></span>
+	       			<span class="icon-bar"></span>
+	     		</button>
+				<a href="Home.html" class="navbar-brand"><img id="x" src="Untitled-332 (2).png"></a>
+			</div>
+			<ul class="nav navbar-nav">
+						<li><a href="home.html">Home</a></li>
+						<li><a href=""></a></li>
+					</ul>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					
+					<ul class="nav navbar-nav navbar-right" >
+						<li><a href="best.html">Best Trading Books</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="contactUs.html">Contact Us</a></li>
+					</ul>
+				</div>
+		</div>
+</nav>
+
+
+<div id="msh">
+
+	<img id="home" src="c.jpg">
+</div>
+
+<div class="container" >
+	<div class="jumbotron">
+	<div class="row"  > 
+		<div class="col-lg-6 klam">
+			<h2>Description:</h2>
+			<p>
+				Need a friend , bored , completly out of mood or even depressed however you are felling its time to stop it ;
+				couse the <span>GEEKS</span> has launched their first application <span> BOOK VERSE</span> that will totaly change all of it - So , start your new way to <span>READ LEAD </span> and <span>SUCCEED.</span>
+			</p>
+		</div>
+				
+		<div class="col-lg-6">
+			<div class="thumbnail sora">
+				<img src="gift.jpg">
+			</div>
+    
+		</div>
+	</div>
+
+<br>
+<hr>
+
+
+<br>
+	<div class="row"  > 
+
+		<div class="col-lg-6">
+			<div class="thumbnail sora">
+				<img src="a.jpg">
+			</div>
+    
+		</div>
+
+
+		<div class="col-lg-6 klam">
+			<h2>Our Vision:</h2>
+			<p>
+				<span> BOOK VERSE</span> is user friendly , flexible and full of feautres application that will totaly make the process of reading a book much easier for it's users.
+			</p>
+		</div>
+	</div>
+
+<br>
+<hr>
+
+<div class="show">
+
+<div class="slideshow-container">
+
+<div class="Slide">
+
+  <img src="gr.jpg" style="width: 100%;height:300px ">
+</div>
+
+<div class="Slide">
+
+  <img src="gift.jpg" style="width: 100%;height:300px ">
+</div>
+
+<div class="Slide">
+
+  <img src="olu-eletu-211916.jpg" style="width: 100%;height:300px ">
+</div>
+
+<a class="prev" onclick="changeslide(-1)">&#10094;</a>
+<a class="next" onclick="changeslide(1)">&#10095;</a>
+
+</div>
+</div>
+<hr>
+
+<br>
+	<div class="row"  > 
+		<div class="col-lg-6 klam">
+			<h2>Our Mission</h2>
+			<p>
+				we will offer a wide range of services to help both of the ex-changers to have a safe andprofitable exchanging proccess.
+			</p>
+		</div>
+				
+		<div class="col-lg-6">
+			<div class="thumbnail sora">
+				<img src="b.jpg">
+			</div>
+    
+		</div>
+	</div>
+
+
+
+</div>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function changeslide(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("Slide");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+</script>
+</body></html>
